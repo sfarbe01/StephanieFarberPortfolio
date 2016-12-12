@@ -61,10 +61,10 @@ figcaption{
   min-width: 100%;
   padding-top: 1em;
   padding-bottom: 3em;
-  background-image:
+    background-image:
   linear-gradient(45deg,
-      rgba(128, 18, 155, 0.6), 
-      rgba(32, 18, 155, 0.6)
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
     ),
     url()
 }
@@ -74,10 +74,10 @@ figcaption{
   padding-top: 1em;
   padding-bottom: 3em;
   margin-bottom: -2em;
-  background-image:
+ background-image:
   linear-gradient(45deg,
-       rgba(102, 249, 196, 0.6), 
-      rgba(102, 196, 249, 0.6)
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
     ),
     url()
 }
@@ -90,10 +90,10 @@ img{
   padding-bottom: 1.5em;
   padding-top:1em;
   margin-top: 2em;
-  background-image:
+     background-image:
   linear-gradient(45deg,
-      rgba(128, 18, 155, 0.6), 
-      rgba(32, 18, 155, 0.6)
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
     ),
     url()
 }
@@ -105,8 +105,8 @@ img{
   padding-top: 1em;
   background-image:
   linear-gradient(45deg,
-      rgba(128, 18, 155, 0.6), 
-      rgba(32, 18, 155, 0.6)
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
     ),
     url()
 }
@@ -129,10 +129,10 @@ h4{
   padding-top:1em;
   padding-bottom: 1em;
   margin-top: 2em;
-background-image:
+ background-image:
   linear-gradient(45deg,
-       rgba(102, 249, 196, 0.6), 
-      rgba(102, 196, 249, 0.6)
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
     ),
     url()
 }
@@ -141,20 +141,21 @@ background-image:
   min-width: 100%;
   padding-top:1em;
   padding-bottom: 1em;
- background-image:
+  background-image:
   linear-gradient(45deg,
-       rgba(102, 249, 196, 0.6), 
-      rgba(102, 196, 249, 0.6)
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
     ),
     url()
+
 }
 
 
 .intro{
-  background-image:
+ background-image:
   linear-gradient(45deg,
-       rgba(102, 249, 196, 0.6), 
-      rgba(102, 196, 249, 0.6)
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
     ),
     url();
   padding-bottom: 1em;
