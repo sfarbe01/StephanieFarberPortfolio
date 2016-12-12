@@ -32,7 +32,9 @@ img{
   border-radius: 50px;
 }
 
-
+iframe{
+  max-width: 90vw;
+}
 
 body{
 background:
@@ -61,8 +63,8 @@ figcaption{
   padding-bottom: 3em;
   background-image:
   linear-gradient(45deg,
-      rgba(128, 18, 155, 0.7), 
-      rgba(32, 18, 155, 0.7)
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
     ),
     url()
 }
@@ -74,8 +76,8 @@ figcaption{
   margin-bottom: -2em;
   background-image:
   linear-gradient(45deg,
-       rgba(102, 249, 196, 0.7), 
-      rgba(102, 196, 249, 0.7)
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
     ),
     url()
 }
@@ -90,8 +92,8 @@ img{
   margin-top: 2em;
   background-image:
   linear-gradient(45deg,
-      rgba(128, 18, 155, 0.7), 
-      rgba(32, 18, 155, 0.7)
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
     ),
     url()
 }
@@ -103,8 +105,8 @@ img{
   padding-top: 1em;
   background-image:
   linear-gradient(45deg,
-       rgba(102, 249, 196, 0.7), 
-      rgba(102, 196, 249, 0.7)
+      rgba(128, 18, 155, 0.6), 
+      rgba(32, 18, 155, 0.6)
     ),
     url()
 }
@@ -129,14 +131,25 @@ h3{
   padding-top:1em;
   padding-bottom: 1em;
   margin-top: 2em;
-  background-image:
+background-image:
   linear-gradient(45deg,
-      rgba(128, 18, 155, 0.7), 
-      rgba(32, 18, 155, 0.7)
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
     ),
     url()
 }
 
+.videos{
+  min-width: 100%;
+  padding-top:1em;
+  padding-bottom: 1em;
+ background-image:
+  linear-gradient(45deg,
+       rgba(102, 249, 196, 0.6), 
+      rgba(102, 196, 249, 0.6)
+    ),
+    url()
+}
 
 
 .intro{
@@ -186,7 +199,7 @@ col-sm-6 col-centered text-center{
 
 h2{
   text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color:white;
 }
 
