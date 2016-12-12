@@ -30,10 +30,6 @@ img{
   border-radius: 50px;
 }
 
-.newheader{
-  padding-left: 1em;
-  padding-right: 4em;
-}
 
 body{
 background:
@@ -60,7 +56,6 @@ figcaption{
   min-width: 100%;
   padding-top: 1em;
   padding-bottom: 3em;
-  margin-bottom: -.5em;
   background-image:
   linear-gradient(45deg,
       rgba(128, 18, 155, 0.7), 
@@ -71,8 +66,8 @@ figcaption{
 
 .blogs{
   min-width: 100%;
+  padding-top: 1em;
   padding-bottom: 3em;
-  margin-top: -1em;
   margin-bottom: -2em;
   background-image:
   linear-gradient(45deg,
@@ -87,7 +82,8 @@ img{
 }
 .infographics{
   min-width: 100%;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
+  padding-top:1em;
   margin-top: 2em;
   background-image:
   linear-gradient(45deg,
@@ -101,7 +97,7 @@ img{
   min-width: 100%;
   padding-bottom: 3em;
   margin-bottom: -2em;
-  padding-top: 2em;
+  padding-top: 1em;
   background-image:
   linear-gradient(45deg,
        rgba(102, 249, 196, 0.7), 
@@ -120,6 +116,7 @@ h4{
 
 .resume{
   min-width: 100%;
+  padding-top:1em;
   padding-bottom: 1em;
   margin-top: 2em;
   background-image:
@@ -149,7 +146,14 @@ h4{
        rgba(180, 190, 192, 0.6), 
       rgba(102, 196, 249, 0.6)
     ),
-    url()
+    url();
+  padding-bottom: 1em;
+  margin-top: 4em;
+}
+
+.contacticons{
+  display:flex;
+  justify-content: space-between;
 }
 
 div{
@@ -182,23 +186,23 @@ html{
 
 /*header nav*/
 
-header{
-  height:auto;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 2em;
-  padding-top:1em;
-  padding-right: 1.5em;
-
-}
-
-.header{
-  float:left;
-  position: relative;
+.navbar navbar-default navbar-fixed-top{
+  padding-bottom: 1.5em;
   display:block;
-  z-index: 0;
-  height:4em;
- 
+  min-width: 100%;
 }
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 100%;
+  display: block;
+}
+
+/*
+background-image:
+       rgba(0, 0, 0, 0.5),
+    url();
+*/
 
 .col-sm-12{
   padding-top: 10px;
@@ -215,6 +219,11 @@ header{
 h1{
   padding-bottom: 40px;
 }
+
+header div{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
 .navheader ul {
   background-color: rgba(41, 188, 158, 0.8);
   text-align: center;
